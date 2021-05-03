@@ -1,0 +1,6 @@
+au/com/worry/DIObernasbeermanagement/service/BeerServiceTest.class
+au/com/worry/DIObernasbeermanagement/controller/BeerControllerTest.class
+au/com/worry/DIObernasbeermanagement/builder/BeerDTOBuilder.class
+au/com/worry/DIObernasbeermanagement/builder/BeerDTOBuilder$BeerDTOBuilderBuilder.class
+au/com/worry/DIObernasbeermanagement/utils/JsonConvertionUtils.class
+au/com/worry/DIObernasbeermanagement/DioBernasBeerManagementApplicationTests.class

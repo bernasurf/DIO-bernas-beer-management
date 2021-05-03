@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: au.com.worry.DIObernasbeermanagement.service.BeerServiceTest
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.164 s - in au.com.worry.DIObernasbeermanagement.service.BeerServiceTest
