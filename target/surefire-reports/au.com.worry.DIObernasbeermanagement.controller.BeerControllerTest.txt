@@ -1,0 +1,50 @@
+-------------------------------------------------------------------------------
+Test set: au.com.worry.DIObernasbeermanagement.controller.BeerControllerTest
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 7, Errors: 2, Skipped: 0, Time elapsed: 0.633 s <<< FAILURE! - in au.com.worry.DIObernasbeermanagement.controller.BeerControllerTest
+whenPOSTIsCalledThenABeerIsCreated  Time elapsed: 0.386 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<201> but was:<404>
+	at au.com.worry.DIObernasbeermanagement.controller.BeerControllerTest.whenPOSTIsCalledThenABeerIsCreated(BeerControllerTest.java:68)
+
+whenGETListWithBeersIsCalledThenOkStatusIsReturned  Time elapsed: 0.03 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<404>
+	at au.com.worry.DIObernasbeermanagement.controller.BeerControllerTest.whenGETListWithBeersIsCalledThenOkStatusIsReturned(BeerControllerTest.java:129)
+
+whenDELETEIsCalledWithValidIdThenNoContentStatusIsReturned  Time elapsed: 0.023 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<204> but was:<404>
+	at au.com.worry.DIObernasbeermanagement.controller.BeerControllerTest.whenDELETEIsCalledWithValidIdThenNoContentStatusIsReturned(BeerControllerTest.java:160)
+
+whenGETIsCalledWithValidNameThenOkStatusIsReturned  Time elapsed: 0.02 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<404>
+	at au.com.worry.DIObernasbeermanagement.controller.BeerControllerTest.whenGETIsCalledWithValidNameThenOkStatusIsReturned(BeerControllerTest.java:98)
+
+whenDELETEIsCalledWithInvalidIdThenNotFoundStatusIsReturned  Time elapsed: 0.021 s  <<< ERROR!
+org.mockito.exceptions.misusing.UnnecessaryStubbingException: 
+
+Unnecessary stubbings detected.
+Clean & maintainable test code requires zero unnecessary code.
+Following stubbings are unnecessary (click to navigate to relevant line of code):
+  1. -> at au.com.worry.DIObernasbeermanagement.controller.BeerControllerTest.whenDELETEIsCalledWithInvalidIdThenNotFoundStatusIsReturned(BeerControllerTest.java:166)
+Please remove unnecessary stubbings or use 'lenient' strictness. More info: javadoc for UnnecessaryStubbingException class.
+
+whenPOSTIsCalledWithoutRequiredFieldThenAnErrorIsReturned  Time elapsed: 0.039 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<400> but was:<404>
+	at au.com.worry.DIObernasbeermanagement.controller.BeerControllerTest.whenPOSTIsCalledWithoutRequiredFieldThenAnErrorIsReturned(BeerControllerTest.java:84)
+
+whenGETListWithoutBeersIsCalledThenOkStatusIsReturned  Time elapsed: 0.038 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<404>
+	at au.com.worry.DIObernasbeermanagement.controller.BeerControllerTest.whenGETListWithoutBeersIsCalledThenOkStatusIsReturned(BeerControllerTest.java:146)
+
+whenPATCHIsCalledToIncrementDiscountThenOKstatusIsReturned  Time elapsed: 0.034 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<404>
+	at au.com.worry.DIObernasbeermanagement.controller.BeerControllerTest.whenPATCHIsCalledToIncrementDiscountThenOKstatusIsReturned(BeerControllerTest.java:187)
+
+whenGETIsCalledWithoutRegisteredNameThenNotFoundStatusIsReturned  Time elapsed: 0.035 s  <<< ERROR!
+org.mockito.exceptions.misusing.UnnecessaryStubbingException: 
+
+Unnecessary stubbings detected.
+Clean & maintainable test code requires zero unnecessary code.
+Following stubbings are unnecessary (click to navigate to relevant line of code):
+  1. -> at au.com.worry.DIObernasbeermanagement.controller.BeerControllerTest.whenGETIsCalledWithoutRegisteredNameThenNotFoundStatusIsReturned(BeerControllerTest.java:110)
+Please remove unnecessary stubbings or use 'lenient' strictness. More info: javadoc for UnnecessaryStubbingException class.
+
